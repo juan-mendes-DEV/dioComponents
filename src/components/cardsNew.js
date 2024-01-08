@@ -89,14 +89,15 @@ class Cardnews extends HTMLElement{
           @keyframes neon {
             0%,
             100% {
-              text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-              color: #FED128;
+              text-shadow: 0 0 1vw #1100ff, 0 0 3vw #1100ff, 0 0 10vw #1100ff, 0 0 10vw #1100ff, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+              color: #ffffff;
             }
             50% {
-              text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-              color: #806914;
+              text-shadow: 0 0 .5vw #090083, 0 0 1.5vw #090083, 0 0 5vw #090083, 0 0 5vw #090083, 0 0 .2vw #090083, .5vw .5vw .1vw #40340A;
+              color: #ffffff;
             }
           }
+          
         
         
           .neon-container {
@@ -120,14 +121,16 @@ class Cardnews extends HTMLElement{
           @keyframes neonn {
             0%,
             100% {
-              box-shadow: 0 0 1vw #ff9100, 0 0 3vw #ff9100, 0 0 10vw #ff9100, 0 0 10vw #ff9100, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+              box-shadow: 0 0 1vw #1100ff, 0 0 3vw #1100ff, 0 0 10vw #1100ff, 0 0 10vw #1100ff, 0 0 .4vw #1100ff, .5vw .5vw .1vw #806914;
               color: #FED128;
             }
             50% {
-              box-shadow: 0 0 .5vw #ff9100, 0 0 1.5vw #ff9100, 0 0 5vw #ad6200, 0 0 5vw #8b4f00, 0 0 .2vw #7e4700, .5vw .5vw .1vw #40340A;
+              box-shadow: 0 0 .5vw #0a0188, 0 0 1.5vw #080177, 0 0 5vw #080177, 0 0 5vw #090177, 0 0 .2vw #7e4700, .5vw .5vw .1vw #40340A;
               color: #806914;
             }
           }
+          
+          
         `
 
         return style;

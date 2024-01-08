@@ -14,6 +14,15 @@ body{
   background-image: linear-gradient(rgb(39, 39, 39),rgb(97, 97, 97));
   margin-bottom: 40px;
 }
+.rodape{
+  padding: 20px;
+  background-image: linear-gradient(rgb(39, 39, 39),rgb(97, 97, 97));
+  margin-top: 50px;
+}
+.rodape p{
+  color: white;
+  text-align: center;
+}
 .logo{
   display: flex;
 }
@@ -30,7 +39,7 @@ body{
 @keyframes neon {
   0%,
   100% {
-    text-shadow: 0 0 1vw #1100ff, 0 0 3vw #1100ff, 0 0 10vw #1100ff, 0 0 10vw #1100ff, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    text-shadow: 0 0 1vw #f0efff, 0 0 3vw #fafaff, 0 0 10vw #fafafd, 0 0 10vw #f8f8ff, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
     color: #ffffff;
   }
   50% {
@@ -38,4 +47,5 @@ body{
     color: #ffffff;
   }
 }
+
 
