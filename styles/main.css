@@ -9,3 +9,33 @@
 body{
     background-color: rgb(49, 49, 49);
 }
+.cabecalho{
+  padding: 20px;
+  background-image: linear-gradient(rgb(39, 39, 39),rgb(97, 97, 97));
+  margin-bottom: 40px;
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  width: 50px;
+  border-radius: 50%;
+}
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1100ff, 0 0 3vw #1100ff, 0 0 10vw #1100ff, 0 0 10vw #1100ff, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #ffffff;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #090083, 0 0 1.5vw #090083, 0 0 5vw #090083, 0 0 5vw #090083, 0 0 .2vw #090083, .5vw .5vw .1vw #40340A;
+    color: #ffffff;
+  }
+}
+

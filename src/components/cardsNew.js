@@ -58,6 +58,10 @@ class Cardnews extends HTMLElement{
             background-image: linear-gradient(rgb(184, 184, 184),rgb(80, 80, 80));
             border-radius: 20px;
             text-align: center;
+            transition:0.6s;
+        }
+        .card:hover{
+          transform: scale(1.2);
         }
         .card h1,h3{
             padding-bottom: 20px;
@@ -185,10 +189,15 @@ class CardnewsLeft extends HTMLElement{
           height: 300px;
           margin: 0 auto;
           margin-top: 40px;
+          margin-bottom:40px;
           display: flex;
           background-image: linear-gradient(rgb(184, 184, 184),rgb(80, 80, 80));
           border-radius: 20px;
           text-align: center;
+          transition:0.6s;
+      }
+      .card:hover{
+        transform: scale(1.2);
       }
       .card h1,h3{
           padding-bottom: 20px;
